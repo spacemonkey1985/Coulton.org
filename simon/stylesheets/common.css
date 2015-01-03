@@ -1,0 +1,148 @@
+body{
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 30px; 
+	BACKGROUND-COLOR: #808080; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 0px; 
+	COLOR: #666666; 
+	PADDING-TOP: 0px; 
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+textarea{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+h1{
+	color: #7AC943;
+	font-size: 32pt;
+	font-weight: lighter;
+	padding-top: 50px;
+}
+h2{
+	color: #ffffff;
+	font-size: 24pt;
+	font-weight: lighter;
+	padding-top: 10px;
+}
+.news-header{
+	color: #7AC943;
+	font-size: 12pt;
+	font-weight: lighter;
+}
+.news{
+	font-size: 10pt;
+}
+td{
+	text-align: left;
+	vertical-align: top;
+}
+a{
+	color: #7AC943;
+	text-decoration: none;
+}
+a:hover{
+	color: #BCE4A1;
+	text-decoration: underline;
+}
+p{
+	font-size: 11pt;
+}
+hr{
+	color: #E6E6E6;
+}
+ol{
+	color: #7AC943;
+	padding-right: 5px;
+}
+ol p{
+	COLOR: #666666;
+}
+.contact{
+	background-color: #7AC943;
+	color: #ffffff;
+	padding-left: 5px;
+}
+.contact h1{
+	color: #ffffff;
+	font-size: 32pt;
+	font-weight: lighter;
+	padding-top: 20px;
+}
+.contact a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.contact a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+.menu
+{
+	background-color: #7AC943;
+	text-align: left;
+}
+.menu UL 
+{
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 0px; 
+	PADDING-TOP: 50px; 
+	LIST-STYLE-TYPE: none;
+	vertical-align:middle;
+}
+.menu UL LI 
+{
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 20px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN-TOP: 0px;
+	PADDING-TOP: 0px; 
+	LIST-STYLE-TYPE: none;
+	height: 60px;
+}
+.menu UL LI A 
+{
+	PADDING-RIGHT: 7px; 
+	PADDING-LEFT: 50px;
+	font-family: Arial;
+	font-size: 36pt;
+	font-weight: normal;
+	color: #ffffff;
+	font-style: normal;
+	PADDING-BOTTOM: 0px; 
+	PADDING-TOP: 3px;
+	TEXT-DECORATION: none;
+	vertical-align: middle;
+	LIST-STYLE-TYPE: none;
+	background: url(../images/menu-bg.png) no-repeat 0px 0px;
+}
+.menu UL A:hover 
+{
+	COLOR: #BCE4A1;
+	PADDING-RIGHT: 7px; 
+	PADDING-LEFT: 50px;
+	font-family: Arial;
+	font-size: 36pt;
+	font-weight: normal;
+	font-style: normal;
+	PADDING-BOTTOM: 0px; 
+	PADDING-TOP: 3px;
+	TEXT-DECORATION: none;
+	vertical-align: middle;
+	LIST-STYLE-TYPE: none;
+	background: url(../images/menu-over-bg.png) no-repeat 0px 0px;
+}
+.optin{
+	background: url(../images/btn-bg.png); 
+	height: 40px;
+	vertical-align: middle;
+}
+.optin a{
+	color: #ffffff;
+	vertical-align: middle;
+}
+.optin a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}

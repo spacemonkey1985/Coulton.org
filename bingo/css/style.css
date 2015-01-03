@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'blackcurrantcameo';
+    src: url('../fonts/blackcurrant-cameo-webfont.eot');
+    src: url('../fonts/blackcurrant-cameo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/blackcurrant-cameo-webfont.woff2') format('woff2'),
+         url('../fonts/blackcurrant-cameo-webfont.woff') format('woff'),
+         url('../fonts/blackcurrant-cameo-webfont.ttf') format('truetype'),
+         url('../fonts/blackcurrant-cameo-webfont.svg#blackcurrantcameo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	/* Background from http://www.backgroundlabs.com*/
+	background-image: url("../images/background.png");
+    background-color: #860001;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	color: #ffffff;
+	padding-top: 20px;
+}
+th {
+	background-color: #1485CC;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'blackcurrantcameo';
+	font-size: 40pt;
+	padding: 5px;
+}
+form {
+	margin-bottom: 10px;
+}
+.navbar {
+	background-color: #1485CC;
+	color: #fff;
+	padding-top: 10px !important;
+	vertical-align: middle;
+	border: none;
+}
+.navbar-brand {
+	display: none;
+	margin-left: -30px;
+}
+.navbar li {
+	margin-right: 10px;
+}
+.dropdown-menu {
+	background-color: #1485CC;
+	color: #000;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+div.logo {
+	background-image: url("../images/logo.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 10px;
+    padding-top: 24%; /* (img-height / img-width * width) */
+}
+div.panel-border {
+	background-color: #1485CC;
+	padding: 10px;
+	-webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+	box-shadow: 0 0 30px #000;
+}
+div.panel-container {
+	background-color: #ffffff;
+	color: #000;
+	padding: 0px;
+	-webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+div.bingo-buttons {
+	width: 100%;
+	text-align: right;
+}
+.btn {
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+.list-group {
+	width: 250px;
+}
+div.bingo-icon {
+	background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 10px;
+}
+div.bingo-dot {
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	padding-top: 100%; /* (img-height / img-width * width) */
+}
+.btn-bingo {
+	color: #fff;
+	background-color: #1485CC;
+	border-color: #fff;
+}
+.btn-bingo:hover,.btn-bingo:focus,.btn-bingo.focus,.btn-bingo:active,.btn-bingo.active,.open>.dropdown-toggle.btn-bingo {
+	color: #1485CC;
+	background-color: #fff;
+	border-color: #204d74;
+}
+.btn-bingo:active,.btn-bingo.active,.open>.dropdown-toggle.btn-bingo {
+	background-image: none;
+}
+.btn-bingo.disabled,.btn-bingo[disabled],fieldset[disabled] .btn-bingo,.btn-bingo.disabled:hover,.btn-bingo[disabled]:hover,fieldset[disabled] .btn-bingo:hover,.btn-bingo.disabled:focus,.btn-bingo[disabled]:focus,fieldset[disabled] .btn-bingo:focus,.btn-bingo.disabled.focus,.btn-bingo[disabled].focus,fieldset[disabled] .btn-bingo.focus,.btn-bingo.disabled:active,.btn-bingo[disabled]:active,fieldset[disabled] .btn-bingo:active,.btn-bingo.disabled.active,.btn-bingo[disabled].active,fieldset[disabled] .btn-bingo.active {
+	background-color: #fff;
+	border-color: #2e6da4;
+}
+.btn-bingo .badge {
+	color: #1485CC;
+	background-color: #fff}
